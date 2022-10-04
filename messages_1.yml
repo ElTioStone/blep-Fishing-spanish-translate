@@ -1,0 +1,145 @@
+# 
+#This Message File was created using the Config Web Panel. Use /BF Config in game to generate your own!
+#
+
+version: 1.2
+
+Fish Object: 
+    value: "&2Valor: {curr}{cost}"
+    length: "&8Tamaño: {size}cm."
+    caught: "&8Capturado por: {player} el {date}"
+    announce: "Has capturado un {fish} {rarity}&f!"
+
+Treasure: 
+    open: "&bClick derecho para &e&oAbrir"
+    result: "Has encontrado un {item} &fen el {casket}&f!"
+    noEcon: "No se puede abrir el cofre. Hubieras encontrado dinero pero la economía no está activada."
+    bottle: "&dUn mensaje en la botella"
+    letter: "&fCarta arrugada"
+
+Tournament:
+    Type:
+        description: "Catch the {type} {fish} to win!"
+        largest: "Largest"
+        smallest: "Smallest"
+        expensive: "Most Expensive"
+        cheapest: "Cheapest"
+        score: "Best"
+        amount: "Most"
+    noneCaughtItem: "No Fish Caught Yet"
+    newBest: "{player} just took the top spot in the {tournament}&f with a {rarity} {fish}!"
+    allFish: "Fish"
+    noneCaught: "No {fish} were caught before the tournament ended, no rewards have been given."
+    start: "The {tournament} &fFishing Contest has begun!"
+    leaderboard: "&l-- Tournament Leaderboard - Hover For Info --"
+    noRewards: "You do not have any rewards to claim."
+    claimRewards: "You have {amount} rewards left to be claimed!"
+    claimRewards2: "Type &b/bf claim &fto receive them!"
+    panelName: "Fishing Tournaments"
+    empty: "No Fishing Tournaments are currently running."
+    inactive: "Tournaments are not enabled on this server."
+    starting: "Starting {tournament}."
+    noTournament: "Please provide a valid tournament name."
+    noAction: "Please provide the type of tournament action you would like to perform."
+    noName: "Please provide the name of the tournament you would like to {action}."
+    cancel: "{tournament} successfully canceled."
+    notRunning: "{tournament} is not currently running."
+
+Player Panel:
+    title: "Blep Panel"
+    noTournaments: "No hay torneos"
+    singleTournament: "Torneo activo"
+    multiTournaments: "Torneos activos"
+    quests: "Misiones Diarias"
+    collection: "Historial de captura"
+    comingSoon: "Pronto"
+
+    Help: 
+        title: "&b[Blep Fishing Wiki]"
+        lb: "&f/bf LB <fishname> &dMuestra la tabla de clasificación de los peces."
+        reload: "&f/bf Reload&d Recarga el plugion Blep Fishing."
+        claim: "&f/bf Claim&d Reclama las recompensas del torneo que puedas tener."
+        admin: "&f/bf Admin&d Abre el panel de administración de Blep Fishing.."
+        tourney: "&f/bf Tournament&d Permite controlar los torneos."
+        getData: "&f/bf GetData&d Obtiene los datos binarios del objeto en cuestión. Se utiliza para establecer recompensas personalizadas.."
+        config: "&f/bf Config&d Proporciona un enlace al panel web de configuración."
+
+Signs: 
+    fish: "Mercado"
+    market: "de Peces"
+    marketTitle: "Mercado de Peces"
+    noRank: "La tercera línea no es un número, por lo que se sitúa por defecto en el primer lugar."
+    noFish: "&4El pez no existe"
+
+System: 
+    announceCatch: "¡{player} ha capturado un {fish} {rarity} &fque mide {size}\"!"
+    adminReq: "Es necesario ser un administrador para hacerlo."
+    inventoryFull: "Tu inventario está lleno, por favor, despeja algo de espacio e inténtalo de nuevo."
+    prefix: "&b[BF]&f "
+    noPerm: "Lo siento, no tienes permiso para hacerlo."
+    noComm: "&4Comando no reconocido."
+    reload: "Blep Fishing recargado con éxito."
+    itemReceive: "¡Has recibido {amount} {item}!"
+    debugFish: "Cantidad total de peces: {amount}"
+    debugEnabled: "Modo de depuración activado."
+    debugDisabled: "Modo de depuración desactivado."
+
+Admin: 
+    panelTitle: "---Panel de administración de Blep Fishing---"
+    getDataClick: "Haz click aquí para copiar los datos."
+    Spawn:
+        noName: "&4Please include what you wish to spawn"
+        success: "Terminada la invocación de {amount} {type}"
+        limit: "&eCantidad fijada en 100 para evitar un crash."
+        validAmount: "&4Por favor, introduzca una cantidad válida."
+        validFish: "&4Por favor, introduzca un tipo de pez válido."
+        validTreasure: "&4Por favor, incluya el tipo de tesoro que desea invocar."
+
+Equipment:
+    Fish Bag:
+        baseName: "Bolsa de pescados"
+        autoPickup: "&cClick izquierdo mientras se porta para activar la &e&oRecolección Automática."
+        pickupEnabled: "Recolección automática activada."
+        pickupDisabled: "Recolección automática desactivada."
+        depositAll: "&cShift + Click izquierdo mientras se porta para &e&oDepositar Todo"
+        upgradeReady: "Combina con una &e&o{upgrade}&f en una mesa de herrería para mejorar!!"
+        upgradeHint: "Llena la bolsa para &e&oMejorar"
+        descSmall: "Holds a small amount of fish"
+        noSpace: "No hay más espacio en esa bolsa"
+        noFish: "No se encontraron peces en el inventario"
+        addFish: "Se añadió {amount} a la bolsa."
+        oldVersion: "&cEse pez es de una versión anterior y no se puede guardar en la bolsa."
+        stored: "&bMonto almacenado: &f{amount}"
+        largest: "&bPez más grande: &f{size}\""
+        withdrawSmall: "Click izquierdo para sacar &e&oEl más pequeño"
+        withdrawLarge: "Click derecho para sacar &e&oEl más grande."
+        shift: "&c&oMantén Shift para Sacar &eTodo"
+        smallBag: "Bolsa pequeña de pescados."
+        medBag: "Bolsa mediana de pescados."
+        largeBag: "Bolsa grande de pescados."
+        giantBag: "Bolsa gigante de pescados."
+
+Economy: 
+    noValue: "Those fish aren't worth anything."
+    confirmSellAll: "Sell all fish? Sneak Right-Click again to confirm."
+    sellBagHint: "Sneak Right-Click to sell all fish in bag."
+    sellBagConfirm: "Sell all fish in bag? Sneak Right-Click again to confirm."
+    finishSale: "Sold {amount} fish for ${total}."
+    noEconomy: "No economy plugin found."
+    noPlayer: "That player could not be found."
+
+Endgame: 
+    areaName: "All Blue"
+    Compass: 
+        name: "&o&bBrújula hacia el All Blue"
+        lore: "De verdad existe..."
+        hint: "&bClick derecho para &o&eEnfocar"
+        announce: "&7Sientes una cálida brisa en el aire y oyes gaviotas en la {direction} lejana."
+
+PAPI: 
+    Tournament: 
+        default: "{tournament}&f - {fish} - {time}"
+        notRunning: "Not Running"
+        noneCaught: "None Caught"
+    Fish: 
+        notFound: "Fish Not Found"
